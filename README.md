@@ -59,6 +59,7 @@ for this you'll need your kernel version
   - if necessary reboot the matchine `sudo reboot now`
 
 - Create a project in CCS
+- Unless the prject is once built from CCS there will be no make files in Debug folder
 - Open a terminal and navigate to `workspace/\<project name\>/Debug` folder
 - `\<project name\>.out` file will be in this directory 
   - if not run `make all`
