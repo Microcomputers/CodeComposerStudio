@@ -4,6 +4,17 @@
 
   http://www.ti.com/tool/ccstudio
 
+#Windows
+
+- Start with downloading the `*.zip` file from the <a href="http://www.ti.com/tool/ccstudio">ti web site</a>
+- `unzip`the folder
+- Launch the `*.exe` (installation wizard) with administration rights 
+- Follow the on-screen instructions
+- Make sure that all packages are selected while in the wizard
+
+####After installation
+- Launch the CCS sofware and go thought the package installation procedure in the app center
+- restart CCS
 
 #Linux
   
@@ -49,7 +60,7 @@ for this you'll need your kernel version
 
   ```sudo gedit /etc/udev/rules.d/46-TI_launchpad.rules```
 
-- Coppy this to the file, save and exit
+- Copy this to the file, save and exit
 
   ```
   ATTRS{idVendor}==&quot;0451&quot;, ATTRS{idProduct}==&quot;f432&quot;, MODE=&quot;0660&quot;, GROUP=&quot;plugdev&quot;
@@ -136,7 +147,7 @@ In this new command prompt you can flash the programs.
 
 `reset` Reset the memory before flashing another program.
 
-#Windows
+
 
 
 ##GitHub desktop download
